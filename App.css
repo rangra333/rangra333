@@ -1,0 +1,104 @@
+.resume {
+  display: inline-block;
+  max-width: 65%;
+}
+#hr {
+  border: 1px solid;
+}
+.resSide {
+  max-width: 30%;
+  float: right;
+  margin-top: 2rem;
+}
+.main {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.vl {
+  max-width: 5%;
+}
+.ratings {
+  background-color: rgb(223, 90, 41);
+  height: 1rem;
+  width: 2rem;
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 20%;
+}
+.noRate {
+  border: 1px solid rgb(223, 90, 41);
+  background-color: white;
+  height: 1rem;
+  width: 2rem;
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 20%;
+}
+.mainRating {
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: flex !important;
+}
+
+ul li::before {
+  content: "\21DD";
+  color: orange;
+  margin-right: 10px;
+}
+.telephone::before {
+  content: " \260E";
+}
+.tools .subtools {
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 6px;
+  text-align: center;
+}
+table > tbody > tr:last-child > td {
+  border-bottom-width: 0;
+}
+.expertise {
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 6px;
+  text-align: center;
+  display: inline-block;
+}
+.details > tbody > tr > td {
+  border-bottom: none;
+}
+
+.underline {
+  background-color: rgb(223, 90, 41);
+  height: 1px;
+  margin: 25px 0;
+  position: relative;
+}
+
+.underline:before {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background-color: rgb(223, 90, 41);
+  border-radius: 25px;
+  position: absolute;
+  top: -5px;
+}
+
+.underline:after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background-color: rgb(223, 90, 41);
+  border-radius: 25px;
+  position: absolute;
+  top: -5px;
+  left: 100%;
+}
